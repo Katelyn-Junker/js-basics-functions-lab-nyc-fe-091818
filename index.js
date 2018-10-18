@@ -5,6 +5,8 @@ const hq = 42
 function distanceFromHqInBlocks(currentBlock){
   if(currentBlock>hq){
     return currentBlock-hq 
+  } else{
+    return hq- currentBlock 
   }
   return currentBlock - hq 
 }
