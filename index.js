@@ -10,3 +10,10 @@ function distanceFromHqInBlocks(currentBlock){
   }
   return currentBlock - hq 
 }
+
+function distanceFromHqInFeet (currentBlock){
+  let numberOfBlocks
+  if (currentBlock>hq){
+    numberOfBlocks= currentBlock-hq
+  }
+}
