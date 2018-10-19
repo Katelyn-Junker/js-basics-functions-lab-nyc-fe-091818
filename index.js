@@ -32,7 +32,7 @@ function calculatesFarePrice(start, destination){
   const numberOfBlocks = Math.abs(startingBlock- destinationBlock)
   const numberOfFeet= numberOfBlocks*feetInBlock
   
-  if (numberOfFeet <=400){
+  if (numberOfFeet <= 400) {
     return 0
   }
 else if(numberOfFeet > 400 && numberOfFeet <= 2000){
