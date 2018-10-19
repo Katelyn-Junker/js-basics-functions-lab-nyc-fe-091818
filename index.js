@@ -29,5 +29,10 @@ function distanceTravelledInFeet(block1, block2){
 
 function calculatesFarePrice(start, destination){
   //how far//
+  const numberOfBlocks = Math.abs(startingBlock-destinationBlock)
+  const numberOfFeet= numberOfBlocks* numberInBlock
   
+  if (numberOfFeet <=400){
+    return 0
+  }
 }
