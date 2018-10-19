@@ -27,7 +27,7 @@ function distanceTravelledInFeet(block1, block2){
  
 }
 
-function calculatesFarePrice(start, destination){
+function calculatesFarePrice(startingBlock, destinationBlock){
   //how far//
   const numberOfBlocks = Math.abs(startingBlock- destinationBlock)
   const numberOfFeet= numberOfBlocks*feetInBlock
