@@ -41,4 +41,9 @@ else if(numberOfFeet > 400 && numberOfFeet <= 2000){
   else if (numberOfFeet > 2000){
     return 25
   }
+  else if (numberOfFeet > 2000 && numberOfFeet <=2500){
+    return 25
+  } else {
+    return 'cannot travel that far'
+  }
 }
