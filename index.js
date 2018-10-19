@@ -15,5 +15,12 @@ function distanceFromHqInFeet (currentBlock){
   let numberOfBlocks
   if (currentBlock>hq){
     numberOfBlocks= currentBlock-hq
+  } else{
+    numberOfBlocks= hq-currentBlock
   }
+  return numberOfBlocks * feetInBlock
+}
+
+function distanceTravelledInFeet(block1, block2){
+  
 }
